@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Premier League App" />
+  <meta name="theme-color" content="#4a148c" />
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/images/favicon.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="stylesheet" href="css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <title>Premier League</title>
+</head>
+
+<body>
+  <!-- Navigasi     -->
+  <nav class="purple darken-4" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="./#club" class="brand-logo light" id="logo-container">
+        <img src="/images/logo-pl-white.png" alt="Premier League" class="responsive-img logo"
+          style="width:120px; margin-top:3px; margin-bottom: 3px;" />
+      </a>
+      <a href="./#club" class="sidenav-trigger light" data-target="nav-mobile">
+        <i class="material-icons">arrow_back</i>
+      </a>
+
+      <ul class="topnav right hide-on-med-and-down"></ul>
+      <ul class="sidenav" id="nav-mobile"></ul>
+    </div>
+  </nav>
+  <!-- Akhir Navigasi -->
+
+  <!-- Body -->
+  <div class="container" id="body-content">
+    <h3 class="light grey-text text-darken-3 center">Informasi Club</h3>
+    <div class="row center" id="club"></div>
+
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large purple darken-4" id="save">
+        <i class="large material-icons" id="iFavorite">favorite_border</i>
+      </a>
+    </div>
+  </div>
+  <!-- Akhir Body -->
+
+  <!-- Script JS -->
+  <script src="js/materialize.min.js"></script>
+  <script src="js/idb.js"></script>
+  <script src="js/cek-club.js" type="module"></script>
+</body>
+
+</html>

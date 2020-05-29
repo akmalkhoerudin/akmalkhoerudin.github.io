@@ -1,0 +1,7 @@
+Firebase
+Project Console      : https://console.firebase.google.com/project/premier-league-5ee01/overview
+Firebase URL Hosting : https://premier-league-5ee01.web.app
+
+Github
+Github Pages        : https://github.com/akmalkhoerudin/akmalkhoerudin.github.io/tree/master
+Github URL Hosting  : https://akmalkhoerudin.github.io
